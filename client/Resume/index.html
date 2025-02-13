@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Cameron D. Wiegel</title>
+    
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="print.css" media="print">
+    
+</head>
+<body>
+    <h1>Cameron D. Wiegel</h1>
+    <hr>
+    <p class="contact-info">
+        <a href="https://www.linkedin.com/in/cameron-wiegel-243b5a252/">LinkedIn</a> • 
+        708-981-6992 • 
+        <a href="mailto:Cwiegel1@lewisu.edu">Cwiegel1@lewisu.edu</a> • 
+        Chicago, IL
+    </p>
+    <hr>
+    
+
+    <div class="section">
+        <h2>Highlights of Qualifications</h2>
+        <hr>
+        <ul>
+            <li>Intern at Argonne National Laboratory</li>
+            <li>Customer support experience (3+ years)</li>
+            <li>Strong organizational and project management skills</li>
+            <li>Leadership and teamwork abilities</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Technical Skills</h2>
+        <hr>
+        <h3>Operating Systems:</h3>
+        <p>• Windows, Linux, iOS, ChromeOS, VirtualBox</p>
+        <h3>Programming Languages:</h3>
+        <p>• C, C++, C#, Java, Python, JavaScript</p>
+        <h3>Web Development:</h3>
+        <p>• HTML, CSS, JavaScript, Node.js</p>
+        <h3>Software & Tools:</h3>
+        <p>• Microsoft Office, Visual Studio, GitHub, Discord</p>
+    </div>
+
+    <div class="section">
+        <h2>Education</h2>
+        <hr>
+        <p><strong>Bachelor of Science in Computer Science</strong> (Expected: December 2025)<br>
+        Lewis University, Romeoville, IL | GPA: 3.8/4.0<br>
+        Minors: Mathematics, Business Administration</p>
+
+        <p><strong>Master of Science in Computer Science</strong> (Expected: May 2027)<br>
+        Lewis University, Romeoville, IL | GPA: 3.8/4.0</p>
+    </div>
+
+    <div class="section">
+        <h2>Internship Experience</h2>
+        <hr>
+        <h3>Computer Science Intern</h3>
+        <p>Argonne National Laboratory, Argonne, IL | Summer 2025</p>
+        <ul>
+            <li>Tested and troubleshot the Aurora supercomputer</li>
+            <li>Analyzed performance bottlenecks</li>
+            <li>Evaluated software and node performance</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Work Experience</h2>
+        <hr>
+        <h3>SportsCentral Attendant</h3>
+        <p>Village of Orland Park, Orland Park, IL | August 2021 – Present</p>
+        <ul>
+            <li>Coordinated with coworkers to manage customer interactions</li>
+            <li>Handled membership system operations</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Honors & Awards</h2>
+        <hr>
+        <ul>
+            <li>Dean’s List, Lewis University (1 semester)</li>
+            <li>Dean's List, Moraine Valley (3 semesters)</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Printable Resume</h2>
+        <button id="printButton">Print Resume</button>
+    </div>
+    <script>
+        document.getElementById("printButton").addEventListener("click", function() {
+            var pdfWindow = window.open("pdfresume.pdf", "_blank");
+            pdfWindow.onload = function() {
+                pdfWindow.print();
+            };
+        });
+    </script>
+</body>
+</html>

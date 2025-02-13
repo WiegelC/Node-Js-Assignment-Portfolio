@@ -1,0 +1,63 @@
+/*Style provided by chatgpt
+ *Promt: can you provid a resume styling with Times new roman font H1 that is centered
+
+*/
+/* General Styling */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 40px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Centered Name and Contact Info */
+h1, .contact-info {
+    text-align: center;
+}
+
+/* Section Headers */
+h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+}
+
+/* Subheaders */
+h3 {
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+
+/* Paragraph and List Styling */
+p, ul {
+    margin-left: 20px;
+}
+
+/* Unordered List */
+ul {
+    list-style-type: disc;
+    margin-left: 40px;
+}
+
+/* Links */
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Resume Sections */
+.section {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 30px;
+}
