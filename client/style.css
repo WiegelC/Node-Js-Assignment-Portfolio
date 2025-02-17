@@ -9,7 +9,7 @@ body {
 
 /* Header */
 header {
-    background-color: #0078D4;
+    background-color: #561515;
     color: white;
     padding: 20px;
     font-size: 1.5em;
@@ -19,7 +19,7 @@ header {
 h2 {
     margin-top: 30px;
     font-size: 1.8em;
-    color: #0078D4;
+    color: #561515;
 }
 
 /* Assignment Cards */
@@ -39,7 +39,7 @@ h2 {
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-decoration: none;
-    color: #0078D4;
+    color: #561515;
     font-weight: bold;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
