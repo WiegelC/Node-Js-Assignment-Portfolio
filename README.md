@@ -13,4 +13,4 @@ and the resume website,
 
 that has the index.css and index.html on top of a pdf Resume file
 
-
+We discussed how it it fine if the resume website is an extention of the assiment potfolio but dice roller is not
